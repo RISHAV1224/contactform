@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            background-color: rgb(66, 125, 7);
+            color: white;
+        }
+        input[type="submit"]{
+            box-sizing: content-box;
+            background-color: rgb(66, 125, 7);
+            color: white;
+            block-size: 25px;
+            font-weight: bolder;
+        }
+        h3{
+            background-color: rgb(66, 125, 7);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Contact Form</h1>
+    <h3>Please fill all the texts in the fields</h3>
+    <h2>Your Name:</h2>
+    <p><input type="text" placeholder="Your Full Name" name="name"width="100%"></p>
+    <h2>Your Email:</h2>
+    <input type="email" width="100%" placeholder="Valid Email Address" email="email">
+    <h2>Message:</h2>
+    <textarea placeholder="Your Message to Us" name="address" id="address" cols="100" rows="10"></textarea>
+    <h2>Subject:</h2>
+    <input type="text" placeholder="Job Inquiry" name="Subject">
+    <p><input type="submit" value="Send"></p>
+</div> 
+</body>
+</html>
